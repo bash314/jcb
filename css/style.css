@@ -720,6 +720,11 @@ p {font-family: 'opensans';}
 	padding-left: 30px;
 }
 
+.contact-box .contact-details .rtl {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 .contact-box .contact-details li i {
 	position: absolute; 
 	left: 0;
@@ -938,6 +943,11 @@ p {font-family: 'opensans';}
 }
 
 @media (max-width: 600px) {
+
+    .container {padding: 0 20px;}
+
+    .main_title h3 {font-size: 20px;}
+
     .banner .overlay_texts .name {
     	font-size: 20px;
     }
@@ -960,6 +970,9 @@ p {font-family: 'opensans';}
     .portfolio li {
     	width: 100%;
     }
+
+    .footer_wrap .social {display: none;}
+    .footer_wrap .copyright {width: 100%; text-align: center;}
 }
 
 
